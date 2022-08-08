@@ -13,7 +13,7 @@
     background: url('./assets/img/icon_download.png') no-repeat 150px !important;
     &:hover {
         text-decoration: none;
-        color: $text;
+        color: $color;
         background: url('./assets/img/icon_download.png') no-repeat 150px $primary-color !important;
     }
 }

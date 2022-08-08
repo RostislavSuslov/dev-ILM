@@ -7,6 +7,8 @@
                 <h2>Brand color </h2>
                 <div class="brand-bg-1"></div>
                 <div class="brand-bg-2"></div>
+                <div class="brand-bg-3"></div>
+                <div class="brand-bg-4"></div>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12 site-map">
                 <h2>Site map</h2>
@@ -14,6 +16,8 @@
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="article.html">article</a></li>
                     <li><a href="markup.html">markup.html</a></li>
+                    <li><a href="template-page.html">template-page.html</a></li>
+                    <li><a href="blog.html">blog.html</a></li>
                 </ol>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
@@ -22,17 +26,18 @@
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>Font-family</h2>
-                <div>HeliosLightC</div>
-                <div>HeliosC</div>
+                <div> <b>Lora</b> - Основные заголовки</div>
+                <div> <b>Montserrat</b> - текст основной</div>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>Font-weight </h2>
                 <ol>
-                    <li class="font-weight-light">font-weight-light - Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis, facilis consectetur officiis asperiores neque velit similique quod rem voluptatibus?</li>
+                    <li class="font-weight-Regular">font-weight-Regular - Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis, facilis consectetur officiis asperiores neque velit similique quod rem voluptatibus?</li>
+                    
+                    <li class="font-weight-Medium">font-weight-Medium - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ipsam ea earum, officia minima molestias accusantium nihil repellendus delectus aperiam?</li>
 
-                    <li class="font-weight-normal">font-weight-normal - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, laboriosam iure? Exercitationem architecto tempora adipisci veniam dicta pariatur fuga eos?</li>
+                    <li class="font-weight-SemiBold">font-weight-SemiBold - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, laboriosam iure? Exercitationem architecto tempora adipisci veniam dicta pariatur fuga eos?</li>
 
-                    <li class="font-weight-bold">font-weight-bold - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ipsam ea earum, officia minima molestias accusantium nihil repellendus delectus aperiam?</li>
                 </ol>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
@@ -53,7 +58,7 @@
                 <div class="title_5">h5 - Test title <small>Small test</small></div>
                 <div class="title_6">h6 - Test title <small>Small test</small></div>
             </li>
-            <li class="col-lg-4 col-md-6 col-xs-12">
+            <li class="col-lg-4 col-md-6 col-xs-12" style="background-color: #1F232B;">
                 <h2>checkbox, radiobutton</h2>
                 <p>
                     <input id="checkbox" type="checkbox" name="terms" checked="checked">
@@ -91,8 +96,16 @@
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>button link </р>
-                <a href="#" class="btn btn-primary">Primary</a>
-                <a href="#" class="btn btn-secondary">Secondary</a>
+                    <br>
+                <a href="#" class="btn btn-primary">Registration</a>
+                    <br>  <br>
+                <a href="#" class="btn btn-primary">Schedule a Zoom meeting</a>
+                <br>  <br>
+                <a href="#" class="btn btn-primary">Call back</a>
+                <div class="brand-bg-2 justify-content-center d-flex align-items-center my-5">
+                    <a href="#" class="btn btn-secondary mx-3 my-2">Secondary</a>
+                </div>
+                
                 <a href="#" class="btn btn-success">Success</a>
                 <a href="#" class="btn btn-danger">Danger</a>
                 <a href="#" class="btn btn-warning">Warning</a>
@@ -102,9 +115,11 @@
                 <a href="#" class="btn btn-link">Link</a>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">   
-                <h2>button </р>
+                <h2>button </h2>
                 <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
+                <div class="brand-bg-2 justify-content-center d-flex align-items-center my-5">
+                    <button type="button" class="btn btn-secondary mx-3 my-2">Secondary</button>
+                </div>
                 <button type="button" class="btn btn-success">Success</button>
                 <button type="button" class="btn btn-danger">Danger</button>
                 <button type="button" class="btn btn-warning">Warning</button>
@@ -114,8 +129,10 @@
                 <button type="button" class="btn btn-link">Link</button></li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>button input</h2>
-                <input type="button" class="btn btn-primary" value="Primary">
-                <input type="button" class="btn btn-secondary" value="Secondary">
+                <input type="button" class="btn btn-primary" value="Я текст в кнопке">
+                <div class="brand-bg-2 justify-content-center d-flex align-items-center my-5">
+                    <input type="button" class="btn btn-secondary mx-3 my-2" value="Secondary">
+                </div>
                 <input type="button" class="btn btn-success" value="Success">
                 <input type="button" class="btn btn-danger" value="Danger">
                 <input type="button" class="btn btn-warning" value="Warning">
@@ -142,37 +159,25 @@
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>Fancybox image</h2>
-                <a href="assets/img/test-cat.jpeg" class="fancybox" data-fancybox="gallery" data-caption="Caption #1">
-                    <img class="img-fluid" src="assets/img/test-cat.jpeg" alt="">
+                <a href="assets/img/screenshot.png" class="fancybox" data-fancybox="gallery" data-caption="Caption #1">
+                    <img class="img-fluid" src="assets/img/screenshot.png" alt="">
                 </a>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2> Fancybox video</h2>
                 <a href="https://www.youtube.com/watch?v=rYNN5p-uI1Q" class="fancybox" data-fancybox="gallery" data-caption="Caption #2">
-                  <img class="img-fluid" src="assets/img/test-cat.jpeg" alt="">
+                  <img class="img-fluid" src="assets/img/screenshot.png" alt="">
                 </a>
             </li>
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2> theme image</h2>
-                <a href="assets/img/screenshot.jpeg" class="fancybox" data-fancybox="gallery" data-caption="Caption #2">
-                  <img class="img-fluid" src="assets/img/screenshot.jpeg" alt="">
+                <a href="assets/img/screenshot.png" class="fancybox" data-fancybox="gallery" data-caption="Caption #2">
+                  <img class="img-fluid" src="assets/img/screenshot.png" alt="">
                 </a>
             </li>
-            <li class="col-lg-4 col-md-6 col-xs-12">
-             
-                    <h2>breadcrumbs</h2>
-                    @@include('templates/breadcrumbs.html')
-             
-    
-                </li>
-                    <li class="col-md-6 col-xs-12">
-                        <h2>Pagination</h2>
-                        @@include('templates/pagination.html')
-                    </li>
-                <div>
-                    <div class="title_5">19. desctop</div>
-                
-                </div>
+   
+           
+     
 
             <li class="col-lg-4 col-md-6 col-xs-12">
                 <h2>Нумерованый список</h2>
@@ -188,7 +193,7 @@
                 <h2>Маркерованый список</h2>
 
                 <ul>
-                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.</li>
                     <li>Lorem, ipsum dolor.</li>
                     <li>Lorem, ipsum dolor.</li>
                     <li>Lorem, ipsum dolor.</li>
@@ -198,57 +203,7 @@
             </li>
 
         </ol>
-        <div class="row">
-
-
-
-
-
-
-
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-xs-12">
-             
-
-            </div>
-
-            
-         
-         
-            <div class="col-md-6 col-xs-12">
-                <div class="title_5">20. tablet</div>
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-                <div class="title_5">21. mobile</div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-
-            </div>
-        </div>
+       
     </div>
 </div>
 
